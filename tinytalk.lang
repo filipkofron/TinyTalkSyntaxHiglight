@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "language.dtd">
 
-<language name="Smalltalk" version="1.0" _section="Sources" mimetypes="text/x-smalltalk">
+<language name="Tinytalk" version="1.0" _section="Sources" mimetypes="text/x-tt">
     <string _name = "String" style = "String" end-at-line-end = "FALSE">
 		<start-regex>&quot;</start-regex>
 		<end-regex>&quot;</end-regex>
-	</block-comment>
+	</string>
 	
-	<!-- Comments -->
     <context id="comment" style-ref="comment" end-at-line-end="true" class="comment" class-disabled="no-spell-check">
         <start>//</start>
 
