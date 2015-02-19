@@ -24,7 +24,11 @@
     </context>
     
     <pattern-item _name = "Block Params" style = "Data Type">
-        <regex>:[a-zA-Z0-9_]+</regex>
+        <regex>:[a-zA-Z0-9_:]+</regex>
+    </pattern-item>
+
+    <pattern-item _name = "Method argument" style = "Data Type">
+        <regex>[a-zA-Z0-9_]+:</regex>
     </pattern-item>
     
     <pattern-item _name="Integer Number" style="Decimal">
@@ -40,7 +44,7 @@
     </pattern-item>
     
     <pattern-item _name = "Constants" style = "Decimal">
-		<regex>\b[A-Z_][A-Za-z0-9_:]*\b</regex>
+		<regex>\b[A-Z_][A-Za-z0-9_]*\b</regex>
 	</pattern-item>
 	
 	<pattern-item _name = "Operators" style = "Keyword">
